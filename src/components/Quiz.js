@@ -59,6 +59,7 @@ function Quiz() {
                                         // onClick={() => setClickedOption(i + 1)}
                                         onClick={() => {
                                             setClickedOption(i + 1);
+                                            
                                             setflag(true);
                                         }}
                                     >
